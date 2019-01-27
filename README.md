@@ -2,17 +2,9 @@
 https://www.tensorflow.org/tutorials/
 
 # build env
-## build image
-clone deepo repository and build image as follow
-```bash
-git clone https://github.com/ufoym/deepo.git
-docker build . -f deepo/docker/Dockerfile.all-jupyter-py36-cpu -t deepo/all:cpu
-```
-
 ## run container
 ```bash
-docker run --rm -it -p 8888:8888 -v ${PWD}/src:/root/sharedfolder --ipc=host deepo/all:cpu jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token= --notebook-dir='/root'
-open 0.0.0.0:8888
+./wakeup.sh
 ```
 
 ## noteboook
