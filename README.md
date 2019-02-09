@@ -3,6 +3,11 @@
 [O'Reilly Japan - scikit-learnとTensorFlowによる実践機械学習](https://www.oreilly.co.jp/books/9784873118345/)
 
 # build env
+## build image(optional)
+```bash
+docker image build . -t mkusaka/deepo:slim-seabon
+```
+
 ## run container
 ```bash
 ./wakeup.sh
