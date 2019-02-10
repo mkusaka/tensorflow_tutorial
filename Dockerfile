@@ -65,6 +65,8 @@ RUN APT_INSTALL="apt-get install -y --no-install-recommends" && \
         matplotlib \
         Cython \
         seaborn \
+        vispy \
+        fontconfig \
         && \
 
 

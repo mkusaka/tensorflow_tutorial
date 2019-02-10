@@ -1,8 +1,8 @@
-pip freeze
-pip freeze | grep pandas
-exit
-pip freeze | grep sklearn
-pip freeze | grep learn
-howami
-whoami
+pip install fontconfig
+pip install --upgrade setuptools --user python
+sudo pip install fontconfig
+pip install --upgrade setuptools
+pip install --upgrade pip
+sudo pip install fontconfig
+pip install fontconfig
 exit
