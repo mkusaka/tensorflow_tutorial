@@ -10,7 +10,7 @@ docker image build . -t mkusaka/deepo:slim-seabon
 
 ## run container
 ```bash
-./wakeup.sh
+bin/wakeup
 ```
 
 ## noteboook
